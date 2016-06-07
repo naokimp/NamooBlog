@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    
+    <author_tb author_id="hyunohkim" author_nm="김현오" email="hyunohkim@a.co.kr" password="1234" />
+    <author_tb author_id="haroldkim" author_nm="헤롤드" email="haroldkim@a.co.kr" password="1234" />
+    <author_tb author_id="gdohong"   author_nm="홍길동" email="gdohong@a.co.kr"   password="1234" />
+    
+    <blog_tb blog_id="1" blog_nm="블로그" author_id="hyunohkim" />
+    <blog_tb blog_id="2" blog_nm="블로그2" author_id="hyunohkim" />
+    <blog_tb blog_id="3" blog_nm="블로그3" author_id="haroldkim" />
+    
+    <post_tb post_id="1" subject="포스트1" contents="첫번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="2" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="3" subject="포스트1" contents="첫번째 포스트" post_type="D" blog_id="2" />
+    <post_tb post_id="4" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="2" />
+    <post_tb post_id="5" subject="포스트1" contents="첫번째 포스트" post_type="D" blog_id="3" />
+    <post_tb post_id="6" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="7" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="8" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="9" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="10" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="11" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="12" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="13" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="14" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="15" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="16" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    <post_tb post_id="17" subject="포스트2" contents="두번째 포스트" post_type="D" blog_id="1" />
+    
+    
+    <comment_tb comment_id="1" comment="첫번째 코멘트" author_id="hyunohkim" post_id="1" />
+    <comment_tb comment_id="2" comment="두번째 코멘트" author_id="hyunohkim" post_id="1" />
+    <comment_tb comment_id="3" comment="세번째 코멘트" author_id="gdohong" post_id="1" />
+    <comment_tb comment_id="4" comment="첫번째 코멘트" author_id="gdohong" post_id="2" />
+    <comment_tb comment_id="5" comment="두번째 코멘트" author_id="gdohong" post_id="2" />
+    
+</dataset>
